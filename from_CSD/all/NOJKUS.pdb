@@ -1,0 +1,46 @@
+HEADER    CSD ENTRY NOJKUS
+CRYST1   8.8920  11.3870   9.9740  90.00 105.45  90.00     P21/c
+SCALE1      0.112461  0.000000  0.031082       0.000000
+SCALE2      0.000000  0.087819  0.000000       0.000000
+SCALE3      0.000000  0.000000  0.104020       0.000000
+HETATM    1 Pt1  UNK     1      -1.379   3.820   5.827  1.00  0.00          PT  
+HETATM    2 Cl1  UNK     1      -1.140   1.673   5.006  1.00  0.00          CL  
+HETATM    3 Cl2  UNK     1      -3.691   3.646   5.871  1.00  0.00          CL  
+HETATM    4  O1  UNK     1       2.154   5.746   6.505  1.00  0.00           O  
+HETATM    5  O2  UNK     1       2.089   2.320   6.987  1.00  0.00           O  
+HETATM    6  O3  UNK     1       2.456   1.305   5.035  1.00  0.00           O  
+HETATM    7  N1  UNK     1      -1.478   5.672   6.628  1.00  0.00           N  
+HETATM    8  N2  UNK     1       0.566   4.245   5.743  1.00  0.00           N  
+HETATM    9  C1  UNK     1      -0.143   6.054   7.147  1.00  0.00           C  
+HETATM   10  C2  UNK     1       0.947   5.338   6.418  1.00  0.00           C  
+HETATM   11  C3  UNK     1       1.578   3.523   5.003  1.00  0.00           C  
+HETATM   12  C4  UNK     1       2.065   2.266   5.656  1.00  0.00           C  
+HETATM   13  H1  UNK     1      -1.748   6.291   5.960  1.00  0.00           H  
+HETATM   14  H2  UNK     1      -2.107   5.676   7.338  1.00  0.00           H  
+HETATM   15  H3  UNK     1      -0.024   6.990   7.037  1.00  0.00           H  
+HETATM   16  H4  UNK     1      -0.094   5.835   8.070  1.00  0.00           H  
+HETATM   17  H5  UNK     1       1.219   3.294   4.155  1.00  0.00           H  
+HETATM   18  H6  UNK     1       2.325   4.100   4.884  1.00  0.00           H  
+HETATM   19  H7  UNK     1       2.460   1.494   7.277  1.00  0.00           H  
+HETATM   20  K1  UNK     1       3.513   4.411   8.469  1.00  0.00           K  
+CONECT    1    2    3    7    8
+CONECT    2    1
+CONECT    3    1
+CONECT    4   10
+CONECT    5   12   19
+CONECT    6   12
+CONECT    7    1    9   13   14
+CONECT    8    1   10   11
+CONECT    9    7   10   15   16
+CONECT   10    4    8    9
+CONECT   11    8   12   17   18
+CONECT   12    5    6   11
+CONECT   13    7
+CONECT   14    7
+CONECT   15    9
+CONECT   16    9
+CONECT   17   11
+CONECT   18   11
+CONECT   19    5
+MASTER        0    0    0    0    0    0    0    3   20    0   19    0
+END

@@ -1,0 +1,25 @@
+HEADER    CSD ENTRY GLYGLY01
+CRYST1  17.9300   4.6300  17.0900  90.00 125.17  90.00      A2/a
+SCALE1      0.055772  0.000000  0.039299       0.000000
+SCALE2      0.000000  0.215983  0.000000       0.000000
+SCALE3      0.000000  0.000000  0.071581       0.000000
+HETATM    1  O1  UNK     1      -2.600   1.736   6.845  1.00  0.00           O  
+HETATM    2  O2  UNK     1      -2.770   3.102   5.127  1.00  0.00           O  
+HETATM    3  O3  UNK     1       0.837   0.324   3.367  1.00  0.00           O  
+HETATM    4  C1  UNK     1       0.211   1.343   3.059  1.00  0.00           C  
+HETATM    5  C2  UNK     1      -2.293   2.130   5.672  1.00  0.00           C  
+HETATM    6  C3  UNK     1      -1.161   1.296   5.057  1.00  0.00           C  
+HETATM    7  C4  UNK     1       0.457   2.037   1.718  1.00  0.00           C  
+HETATM    8  N1  UNK     1      -0.756   1.852   3.744  1.00  0.00           N  
+HETATM    9  N2  UNK     1       1.883   1.806   1.271  1.00  0.00           N  
+CONECT    1    5
+CONECT    2    5
+CONECT    3    4
+CONECT    4    3    7    8
+CONECT    5    1    2    6
+CONECT    6    5    8
+CONECT    7    4    9
+CONECT    8    4    6
+CONECT    9    7
+MASTER        0    0    0    0    0    0    0    3    9    0    9    0
+END

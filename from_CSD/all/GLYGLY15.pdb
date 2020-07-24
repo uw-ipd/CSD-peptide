@@ -1,0 +1,41 @@
+HEADER    CSD ENTRY GLYGLY15
+CRYST1   7.6428   9.3800   7.6505  90.00 103.88  90.00     P21/c
+SCALE1      0.130842  0.000000  0.032337       0.000000
+SCALE2      0.000000  0.106610  0.000000       0.000000
+SCALE3      0.000000  0.000000  0.134643       0.000000
+HETATM    1  C1  UNK     1       3.462   3.123   1.960  1.00  1.42           C  
+HETATM    2  N1  UNK     1       2.628   3.847   1.233  1.00  1.63           N  
+HETATM    3  C2  UNK     1       1.736   3.200   0.289  1.00  1.78           C  
+HETATM    4  C3  UNK     1       1.264   4.165  -0.792  1.00  1.51           C  
+HETATM    5  O1  UNK     1       1.503   5.381  -0.656  1.00  2.20           O  
+HETATM    6  O2  UNK     1       0.653   3.643  -1.753  1.00  2.84           O  
+HETATM    7  C4  UNK     1       4.283   3.864   2.995  1.00  1.71           C  
+HETATM    8  N2  UNK     1       5.573   3.160   3.199  1.00  1.71           N  
+HETATM    9  O3  UNK     1       3.552   1.899   1.871  1.00  2.31           O  
+HETATM   10  H1  UNK     1       6.059   3.603   3.812  1.00  2.08           H  
+HETATM   11  H2  UNK     1       6.025   3.124   2.423  1.00  2.08           H  
+HETATM   12  H3  UNK     1       5.412   2.322   3.491  1.00  2.08           H  
+HETATM   13  H4  UNK     1       4.462   4.793   2.664  1.00  2.04           H  
+HETATM   14  H5  UNK     1       3.779   3.903   3.851  1.00  2.04           H  
+HETATM   15  H6  UNK     1       2.615   4.741   1.323  1.00  1.93           H  
+HETATM   16  H7  UNK     1       2.221   2.442  -0.147  1.00  2.11           H  
+HETATM   17  H8  UNK     1       0.941   2.852   0.781  1.00  2.11           H  
+CONECT    1    2    7    9
+CONECT    2    1    3   15
+CONECT    3    2    4   16   17
+CONECT    4    3    5    6
+CONECT    5    4
+CONECT    6    4
+CONECT    7    1    8   13   14
+CONECT    8    7   10   11   12
+CONECT    9    1
+CONECT   10    8
+CONECT   11    8
+CONECT   12    8
+CONECT   13    7
+CONECT   14    7
+CONECT   15    2
+CONECT   16    3
+CONECT   17    3
+MASTER        0    0    0    0    0    0    0    3   17    0   17    0
+END

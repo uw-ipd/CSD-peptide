@@ -1,0 +1,79 @@
+HEADER    CSD ENTRY ZEXRAV
+CRYST1  15.0110   8.8620   9.0680  90.00 107.50  90.00     P21/c
+SCALE1      0.066618  0.000000  0.021005       0.000000
+SCALE2      0.000000  0.112841  0.000000       0.000000
+SCALE3      0.000000  0.000000  0.115630       0.000000
+HETATM    1 Cl1  UNK     1       2.215   0.775   3.246  1.00  4.08          CL  
+ANISOU    1 Cl1  UNK     1      571    430    550    -55     36     40      CL  
+HETATM    2  O1  UNK     1      10.589   3.865   6.636  1.00  6.64           O  
+ANISOU    2  O1  UNK     1      783    980    760    -95     33   -130       O  
+HETATM    3  O2  UNK     1      12.188   4.661   5.317  1.00  7.54           O  
+ANISOU    3  O2  UNK     1      665    860   1340   -323    -45    -40       O  
+HETATM    4  O3  UNK     1       8.092   3.973   4.673  1.00  3.74           O  
+ANISOU    4  O3  UNK     1      540    310    570     22     82     30       O  
+HETATM    5  O4  UNK     1       5.079   0.440   5.957  1.00  3.97           O  
+ANISOU    5  O4  UNK     1      490    310    710     24     70     90       O  
+HETATM    6  N1  UNK     1       9.599   2.309   4.573  1.00  3.97           N  
+ANISOU    6  N1  UNK     1      477    340    690     10    128      0       N  
+HETATM    7  N2  UNK     1       6.077   2.361   5.432  1.00  3.89           N  
+ANISOU    7  N2  UNK     1      487    240    750     27    120    -20       N  
+HETATM    8  N3  UNK     1       2.638   1.543   6.235  1.00  3.41           N  
+ANISOU    8  N3  UNK     1      434    340    520     -7     67    -10       N  
+HETATM    9  C1  UNK     1      11.148   3.913   5.576  1.00  4.44           C  
+ANISOU    9  C1  UNK     1      397    460    830     26    -10     50       C  
+HETATM   10  C2  UNK     1      10.736   3.166   4.360  1.00  4.41           C  
+ANISOU   10  C2  UNK     1      477    550    650     -1    152     70       C  
+HETATM   11  C3  UNK     1       8.389   2.786   4.807  1.00  2.97           C  
+ANISOU   11  C3  UNK     1      427    340    360    -26     33    -50       C  
+HETATM   12  C4  UNK     1       7.373   1.760   5.214  1.00  3.49           C  
+ANISOU   12  C4  UNK     1      457    300    570    -18     40    -10       C  
+HETATM   13  C5  UNK     1       5.046   1.654   5.839  1.00  2.80           C  
+ANISOU   13  C5  UNK     1      483    250    330    -27      1     20       C  
+HETATM   14  C6  UNK     1       3.801   2.443   6.145  1.00  3.31           C  
+ANISOU   14  C6  UNK     1      456    320    480    -14     37     10       C  
+HETATM   15  C7  UNK     1      12.694   5.505   6.401  1.00 10.90           C  
+ANISOU   15  C7  UNK     1      792   1060   2290   -127   -345   -430       C  
+HETATM   16  H1  UNK     1       9.720   1.542   4.687  1.00  3.40           H  
+HETATM   17  H2  UNK     1       6.037   3.040   5.466  1.00  5.21           H  
+HETATM   18  H3  UNK     1       2.707   0.789   6.746  1.00  4.11           H  
+HETATM   19  H4  UNK     1       1.908   1.896   6.564  1.00  5.05           H  
+HETATM   20  H5  UNK     1       2.371   1.117   5.431  1.00  4.18           H  
+HETATM   21  H6  UNK     1      10.567   3.766   3.667  1.00  4.26           H  
+HETATM   22  H7  UNK     1      11.453   2.659   4.047  1.00  6.79           H  
+HETATM   23  H8  UNK     1       7.381   1.001   4.488  1.00  5.76           H  
+HETATM   24  H9  UNK     1       7.614   1.258   5.941  1.00  5.05           H  
+HETATM   25  H10 UNK     1       3.611   3.013   5.448  1.00  5.05           H  
+HETATM   26  H11 UNK     1       3.879   2.907   6.979  1.00  3.32           H  
+HETATM   27  H12 UNK     1      13.013   4.812   7.291  1.00 18.95           H  
+HETATM   28  H13 UNK     1      13.452   5.512   6.374  1.00 12.08           H  
+HETATM   29  H14 UNK     1      12.027   6.212   6.988  1.00 13.58           H  
+CONECT    2    9
+CONECT    3    9   15
+CONECT    4   11
+CONECT    5   13
+CONECT    6   10   11   16
+CONECT    7   12   13   17
+CONECT    8   14   18   19   20
+CONECT    9    2    3   10
+CONECT   10    6    9   21   22
+CONECT   11    4    6   12
+CONECT   12    7   11   23   24
+CONECT   13    5    7   14
+CONECT   14    8   13   25   26
+CONECT   15    3   27   28   29
+CONECT   16    6
+CONECT   17    7
+CONECT   18    8
+CONECT   19    8
+CONECT   20    8
+CONECT   21   10
+CONECT   22   10
+CONECT   23   12
+CONECT   24   12
+CONECT   25   14
+CONECT   26   14
+CONECT   27   15
+CONECT   28   15
+CONECT   29   15
+MASTER        0    0    0    0    0    0    0    3   29    0   28    0
+END

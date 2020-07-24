@@ -1,0 +1,607 @@
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.15.post.dev+231.master.abcf277dc47
+[COMMIT_DATE]: 2020-04-16T11:01:53
+[APPLICATION]: /Users/dimaio/Rosetta_master/main/source/bin/rosetta_scripts.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "10.0.0 (clang-1000.11.45.5)"
+[STDLIB]: libc++ version 6000
+[START_OPTIONS]
+ -in:file:fullatom -in:file:fasta=dummy.fasta -out:pdb -parser:protocol=generator.xml
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x000000010fe70e41 backtrace_string(int) + 81
+1   libutility.dylib                    0x000000010fe93f7e utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 206
+2   libutility.dylib                    0x000000010fe75100 utility::UtilityExitException::UtilityExitException(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 112
+3   libutility.dylib                    0x000000010fe75027 utility::exit(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) + 55
+4   libcore.5.dylib                     0x000000010ce6190d core::pack::rotamers::SingleNCAARotamerLibraryCreator::create(core::chemical::ResidueType const&) const + 19693
+5   libcore.5.dylib                     0x000000010ce657a0 core::pack::rotamers::SingleResidueRotamerLibraryFactory::get(core::chemical::ResidueType const&, bool) const + 1136
+6   libcore.5.dylib                     0x000000010ca915c7 core::pack::dunbrack::DunbrackEnergy::residue_energy(core::conformation::Residue const&, core::pose::Pose const&, core::scoring::EMapVector&) const + 103
+7   libcore.3.dylib                     0x000000010dd18aaa core::scoring::ScoreFunction::asym_eval_onebody_energies(core::pose::Pose&) const + 346
+8   libcore.3.dylib                     0x000000010dd11cca core::scoring::ScoreFunction::operator()(core::pose::Pose&) const + 586
+9   libprotocols.1.dylib                0x000000010c1fcb4d protocols::rosetta_scripts::ParsedProtocol::apply(core::pose::Pose&) + 1277
+10  libprotocols.1.dylib                0x000000010bf1273c protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 7868
+11  libprotocols.1.dylib                0x000000010bf0fae3 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 195
+12  libprotocols.1.dylib                0x000000010bf0a6c2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+13  rosetta_scripts.default.macosclangrelease 0x00000001060fad75 main + 1813
+14  libdyld.dylib                       0x00007fff7215e015 start + 1
+15  ???                                 0x0000000000000007 0x0 + 7
+
+[END_BACKTRACE]
+
+[FILE]: src/core/pack/rotamers/SingleNCAARotamerLibraryCreator.cc
+[LINE]: 174
+[START_MESSAGE]
+[ ERROR ] UtilityExitException
+ERROR: Error!  Could not open rotamer library file ncaa_rotamer_libraries/alpha_amino_acid/0TD.rotlib for read.
+
+
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.15.post.dev+231.master.abcf277dc47
+[COMMIT_DATE]: 2020-04-16T11:01:53
+[APPLICATION]: /Users/dimaio/Rosetta_master/main/source/bin/rosetta_scripts.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "10.0.0 (clang-1000.11.45.5)"
+[STDLIB]: libc++ version 6000
+[START_OPTIONS]
+ -in:file:fullatom -in:file:fasta=dummy.fasta -out:pdb -parser:protocol=generator.xml
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x0000000117e70e41 backtrace_string(int) + 81
+1   libutility.dylib                    0x0000000117e93f7e utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 206
+2   libutility.dylib                    0x0000000117e75100 utility::UtilityExitException::UtilityExitException(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 112
+3   libutility.dylib                    0x0000000117e75027 utility::exit(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) + 55
+4   libcore.5.dylib                     0x0000000114c9490d core::pack::rotamers::SingleNCAARotamerLibraryCreator::create(core::chemical::ResidueType const&) const + 19693
+5   libcore.5.dylib                     0x0000000114c987a0 core::pack::rotamers::SingleResidueRotamerLibraryFactory::get(core::chemical::ResidueType const&, bool) const + 1136
+6   libcore.5.dylib                     0x0000000114c5d56f core::pack::rotamer_set::RotamerSet_::build_rotamers_for_concrete(core::pose::Pose const&, core::scoring::ScoreFunction const&, core::pack::task::PackerTask const&, std::__1::shared_ptr<core::chemical::ResidueType const>, core::conformation::Residue const&, std::__1::shared_ptr<utility::graph::Graph const>, bool) + 4767
+7   libcore.5.dylib                     0x0000000114c5c203 core::pack::rotamer_set::RotamerSet_::build_rotamers_for_concrete_virt(core::pose::Pose const&, core::scoring::ScoreFunction const&, core::pack::task::PackerTask const&, std::__1::shared_ptr<core::chemical::ResidueType const>, std::__1::shared_ptr<utility::graph::Graph const>, bool) + 147
+8   libcore.5.dylib                     0x0000000114c5b63d core::pack::rotamer_set::RotamerSet_::build_rotamers(core::pose::Pose const&, core::scoring::ScoreFunction const&, core::pack::task::PackerTask const&, std::__1::shared_ptr<utility::graph::Graph const>, bool) + 269
+9   libcore.5.dylib                     0x0000000114c6c199 core::pack::rotamer_set::RotamerSets::build_rotamers(core::pose::Pose const&, core::scoring::ScoreFunction const&, std::__1::shared_ptr<utility::graph::Graph const>) + 201
+10  libcore.5.dylib                     0x0000000114887822 core::pack::pack_rotamers_setup(core::pose::Pose&, core::scoring::ScoreFunction const&, std::__1::shared_ptr<core::pack::task::PackerTask const>, std::__1::shared_ptr<core::pack::rotamer_set::RotamerSets>, std::__1::shared_ptr<core::pack::interaction_graph::AnnealableGraphBase>&, unsigned long) + 434
+11  libprotocols.3.dylib                0x00000001131a04a3 protocols::minimization_packing::PackRotamersMover::setup(core::pose::Pose&) + 1027
+12  libprotocols.3.dylib                0x000000011319f1a3 protocols::minimization_packing::PackRotamersMover::apply(core::pose::Pose&) + 35
+13  libprotocols.1.dylib                0x000000011402e51d protocols::rosetta_scripts::ParsedProtocol::apply_mover(core::pose::Pose&, protocols::rosetta_scripts::ParsedProtocol::MoverFilterPair const&) + 1357
+14  libprotocols.1.dylib                0x0000000114027bc2 protocols::rosetta_scripts::ParsedProtocol::apply(core::pose::Pose&) + 1394
+15  libprotocols.1.dylib                0x0000000113d3d73c protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 7868
+16  libprotocols.1.dylib                0x0000000113d3aae3 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 195
+17  libprotocols.1.dylib                0x0000000113d356c2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+18  rosetta_scripts.default.macosclangrelease 0x000000010e01bd75 main + 1813
+19  libdyld.dylib                       0x00007fff7215e015 start + 1
+20  ???                                 0x0000000000000007 0x0 + 7
+
+[END_BACKTRACE]
+
+[FILE]: src/core/pack/rotamers/SingleNCAARotamerLibraryCreator.cc
+[LINE]: 174
+[START_MESSAGE]
+[ ERROR ] UtilityExitException
+ERROR: Error!  Could not open rotamer library file ncaa_rotamer_libraries/alpha_amino_acid/0TD.rotlib for read.
+
+
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.15.post.dev+231.master.abcf277dc47
+[COMMIT_DATE]: 2020-04-16T11:01:53
+[APPLICATION]: /Users/dimaio/Rosetta_master/main/source/bin/rosetta_scripts.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "10.0.0 (clang-1000.11.45.5)"
+[STDLIB]: libc++ version 6000
+[START_OPTIONS]
+ -in:file:fullatom -in:file:fasta=dummy.fasta -out:pdb -parser:protocol=generator.xml
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x0000000118e02e41 backtrace_string(int) + 81
+1   libutility.dylib                    0x0000000118e25f7e utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 206
+2   libutility.dylib                    0x0000000118e07100 utility::UtilityExitException::UtilityExitException(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 112
+3   libutility.dylib                    0x0000000118e07027 utility::exit(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) + 55
+4   libcore.3.dylib                     0x0000000116770eb9 core::pose::residue_types_from_sequence(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 2761
+5   libcore.3.dylib                     0x000000011677607b core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 27
+6   libcore.3.dylib                     0x0000000116776517 core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool) + 87
+7   libprotocols.4.dylib                0x000000011348600b protocols::pose_creation::ExtendedPoseMover::apply(core::pose::Pose&) + 75
+8   libprotocols_g.5.dylib              0x0000000112104c77 protocols::comparative_modeling::GenericJobInputter::pose_from_job(core::pose::Pose&, std::__1::shared_ptr<protocols::jd2::Job>) + 1479
+9   libprotocols.1.dylib                0x0000000114bfa3f1 protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 2929
+10  libprotocols.1.dylib                0x0000000114bf8ae3 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 195
+11  libprotocols.1.dylib                0x0000000114bf36c2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+12  rosetta_scripts.default.macosclangrelease 0x000000010eee9d75 main + 1813
+13  libdyld.dylib                       0x00007fff7215e015 start + 1
+14  ???                                 0x0000000000000007 0x0 + 7
+
+[END_BACKTRACE]
+
+[FILE]: src/core/pose/annotated_sequence.cc
+[LINE]: 189
+[START_MESSAGE]
+[ ERROR ] UtilityExitException
+ERROR:  can't find residue type for HIP at pos 1 in sequence X[HIP]
+
+
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.15.post.dev+231.master.abcf277dc47
+[COMMIT_DATE]: 2020-04-16T11:01:53
+[APPLICATION]: /Users/dimaio/Rosetta_master/main/source/bin/rosetta_scripts.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "10.0.0 (clang-1000.11.45.5)"
+[STDLIB]: libc++ version 6000
+[START_OPTIONS]
+ -in:file:fullatom -in:file:fasta=dummy.fasta -out:pdb -parser:protocol=generator.xml
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x0000000115743e41 backtrace_string(int) + 81
+1   libutility.dylib                    0x0000000115766f7e utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 206
+2   libutility.dylib                    0x0000000115748100 utility::UtilityExitException::UtilityExitException(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 112
+3   libutility.dylib                    0x0000000115748027 utility::exit(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) + 55
+4   libcore.3.dylib                     0x000000011332feb9 core::pose::residue_types_from_sequence(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 2761
+5   libcore.3.dylib                     0x000000011333507b core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 27
+6   libcore.3.dylib                     0x0000000113335517 core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool) + 87
+7   libprotocols.4.dylib                0x000000011003e00b protocols::pose_creation::ExtendedPoseMover::apply(core::pose::Pose&) + 75
+8   libprotocols_g.5.dylib              0x000000010ecbec77 protocols::comparative_modeling::GenericJobInputter::pose_from_job(core::pose::Pose&, std::__1::shared_ptr<protocols::jd2::Job>) + 1479
+9   libprotocols.1.dylib                0x00000001117b93f1 protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 2929
+10  libprotocols.1.dylib                0x00000001117b7ae3 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 195
+11  libprotocols.1.dylib                0x00000001117b26c2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+12  rosetta_scripts.default.macosclangrelease 0x000000010baa7d75 main + 1813
+13  libdyld.dylib                       0x00007fff7215e015 start + 1
+14  ???                                 0x0000000000000007 0x0 + 7
+
+[END_BACKTRACE]
+
+[FILE]: src/core/pose/annotated_sequence.cc
+[LINE]: 189
+[START_MESSAGE]
+[ ERROR ] UtilityExitException
+ERROR:  can't find residue type for HP2 at pos 1 in sequence X[HP2]
+
+
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.15.post.dev+231.master.abcf277dc47
+[COMMIT_DATE]: 2020-04-16T11:01:53
+[APPLICATION]: /Users/dimaio/Rosetta_master/main/source/bin/rosetta_scripts.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "10.0.0 (clang-1000.11.45.5)"
+[STDLIB]: libc++ version 6000
+[START_OPTIONS]
+ -in:file:fullatom -in:file:fasta=dummy.fasta -out:pdb -parser:protocol=generator.xml
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x0000000114f4be41 backtrace_string(int) + 81
+1   libutility.dylib                    0x0000000114f6ef7e utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 206
+2   libutility.dylib                    0x0000000114f50100 utility::UtilityExitException::UtilityExitException(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 112
+3   libutility.dylib                    0x0000000114f50027 utility::exit(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) + 55
+4   libcore.3.dylib                     0x0000000112b54eb9 core::pose::residue_types_from_sequence(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 2761
+5   libcore.3.dylib                     0x0000000112b5a07b core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 27
+6   libcore.3.dylib                     0x0000000112b5a517 core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool) + 87
+7   libprotocols.4.dylib                0x000000010f74e00b protocols::pose_creation::ExtendedPoseMover::apply(core::pose::Pose&) + 75
+8   libprotocols_g.5.dylib              0x000000010e3cec77 protocols::comparative_modeling::GenericJobInputter::pose_from_job(core::pose::Pose&, std::__1::shared_ptr<protocols::jd2::Job>) + 1479
+9   libprotocols.1.dylib                0x0000000110ec33f1 protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 2929
+10  libprotocols.1.dylib                0x0000000110ec1ae3 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 195
+11  libprotocols.1.dylib                0x0000000110ebc6c2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+12  rosetta_scripts.default.macosclangrelease 0x000000010b1b1d75 main + 1813
+13  libdyld.dylib                       0x00007fff7215e015 start + 1
+14  ???                                 0x0000000000000007 0x0 + 7
+
+[END_BACKTRACE]
+
+[FILE]: src/core/pose/annotated_sequence.cc
+[LINE]: 189
+[START_MESSAGE]
+[ ERROR ] UtilityExitException
+ERROR:  can't find residue type for DA98 at pos 1 in sequence X[DA98]
+
+
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.15.post.dev+231.master.abcf277dc47
+[COMMIT_DATE]: 2020-04-16T11:01:53
+[APPLICATION]: /Users/dimaio/Rosetta_master/main/source/bin/rosetta_scripts.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "10.0.0 (clang-1000.11.45.5)"
+[STDLIB]: libc++ version 6000
+[START_OPTIONS]
+ -in:file:fullatom -in:file:fasta=dummy.fasta -out:pdb -parser:protocol=generator.xml
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x000000010a7d2e41 backtrace_string(int) + 81
+1   libutility.dylib                    0x000000010a7f5f7e utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 206
+2   libutility.dylib                    0x000000010a7d7100 utility::UtilityExitException::UtilityExitException(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 112
+3   libutility.dylib                    0x000000010a7d7027 utility::exit(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) + 55
+4   libcore.3.dylib                     0x00000001083dbeb9 core::pose::residue_types_from_sequence(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 2761
+5   libcore.3.dylib                     0x00000001083e107b core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 27
+6   libcore.3.dylib                     0x00000001083e1517 core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool) + 87
+7   libprotocols.4.dylib                0x0000000104ea600b protocols::pose_creation::ExtendedPoseMover::apply(core::pose::Pose&) + 75
+8   libprotocols_g.5.dylib              0x0000000103b24c77 protocols::comparative_modeling::GenericJobInputter::pose_from_job(core::pose::Pose&, std::__1::shared_ptr<protocols::jd2::Job>) + 1479
+9   libprotocols.1.dylib                0x00000001066163f1 protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 2929
+10  libprotocols.1.dylib                0x0000000106614ae3 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 195
+11  libprotocols.1.dylib                0x000000010660f6c2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+12  rosetta_scripts.default.macosclangrelease 0x000000010090dd75 main + 1813
+13  libdyld.dylib                       0x00007fff7215e015 start + 1
+14  ???                                 0x0000000000000007 0x0 + 7
+
+[END_BACKTRACE]
+
+[FILE]: src/core/pose/annotated_sequence.cc
+[LINE]: 189
+[START_MESSAGE]
+[ ERROR ] UtilityExitException
+ERROR:  can't find residue type for DB02 at pos 1 in sequence X[DB02]
+
+
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.15.post.dev+231.master.abcf277dc47
+[COMMIT_DATE]: 2020-04-16T11:01:53
+[APPLICATION]: /Users/dimaio/Rosetta_master/main/source/bin/rosetta_scripts.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "10.0.0 (clang-1000.11.45.5)"
+[STDLIB]: libc++ version 6000
+[START_OPTIONS]
+ -in:file:fullatom -in:file:fasta=dummy.fasta -out:pdb -parser:protocol=generator.xml
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x000000011605ce41 backtrace_string(int) + 81
+1   libutility.dylib                    0x000000011607ff7e utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 206
+2   libutility.dylib                    0x0000000116061100 utility::UtilityExitException::UtilityExitException(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 112
+3   libutility.dylib                    0x0000000116061027 utility::exit(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) + 55
+4   libcore.3.dylib                     0x0000000113c65eb9 core::pose::residue_types_from_sequence(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 2761
+5   libcore.3.dylib                     0x0000000113c6b07b core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 27
+6   libcore.3.dylib                     0x0000000113c6b517 core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool) + 87
+7   libprotocols.4.dylib                0x0000000110a8200b protocols::pose_creation::ExtendedPoseMover::apply(core::pose::Pose&) + 75
+8   libprotocols_g.5.dylib              0x000000010f4ccc77 protocols::comparative_modeling::GenericJobInputter::pose_from_job(core::pose::Pose&, std::__1::shared_ptr<protocols::jd2::Job>) + 1479
+9   libprotocols.1.dylib                0x00000001120fd3f1 protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 2929
+10  libprotocols.1.dylib                0x00000001120fbae3 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 195
+11  libprotocols.1.dylib                0x00000001120f66c2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+12  rosetta_scripts.default.macosclangrelease 0x000000010c2abd75 main + 1813
+13  libdyld.dylib                       0x00007fff7215e015 start + 1
+14  ???                                 0x0000000000000007 0x0 + 7
+
+[END_BACKTRACE]
+
+[FILE]: src/core/pose/annotated_sequence.cc
+[LINE]: 189
+[START_MESSAGE]
+[ ERROR ] UtilityExitException
+ERROR:  can't find residue type for DB06 at pos 1 in sequence X[DB06]
+
+
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.15.post.dev+231.master.abcf277dc47
+[COMMIT_DATE]: 2020-04-16T11:01:53
+[APPLICATION]: /Users/dimaio/Rosetta_master/main/source/bin/rosetta_scripts.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "10.0.0 (clang-1000.11.45.5)"
+[STDLIB]: libc++ version 6000
+[START_OPTIONS]
+ -in:file:fullatom -in:file:fasta=dummy.fasta -out:pdb -parser:protocol=generator.xml
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x0000000116ce8e41 backtrace_string(int) + 81
+1   libutility.dylib                    0x0000000116d0bf7e utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 206
+2   libutility.dylib                    0x0000000116ced100 utility::UtilityExitException::UtilityExitException(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 112
+3   libutility.dylib                    0x0000000116ced027 utility::exit(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) + 55
+4   libcore.3.dylib                     0x0000000114af9eb9 core::pose::residue_types_from_sequence(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 2761
+5   libcore.3.dylib                     0x0000000114aff07b core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 27
+6   libcore.3.dylib                     0x0000000114aff517 core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool) + 87
+7   libprotocols.4.dylib                0x000000011134100b protocols::pose_creation::ExtendedPoseMover::apply(core::pose::Pose&) + 75
+8   libprotocols_g.5.dylib              0x000000010ffbfc77 protocols::comparative_modeling::GenericJobInputter::pose_from_job(core::pose::Pose&, std::__1::shared_ptr<protocols::jd2::Job>) + 1479
+9   libprotocols.1.dylib                0x0000000112ab93f1 protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 2929
+10  libprotocols.1.dylib                0x0000000112ab7ae3 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 195
+11  libprotocols.1.dylib                0x0000000112ab26c2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+12  rosetta_scripts.default.macosclangrelease 0x000000010cdaed75 main + 1813
+13  libdyld.dylib                       0x00007fff7215e015 start + 1
+14  ???                                 0x0000000000000007 0x0 + 7
+
+[END_BACKTRACE]
+
+[FILE]: src/core/pose/annotated_sequence.cc
+[LINE]: 189
+[START_MESSAGE]
+[ ERROR ] UtilityExitException
+ERROR:  can't find residue type for DHIP at pos 1 in sequence X[DHIP]
+
+
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.15.post.dev+231.master.abcf277dc47
+[COMMIT_DATE]: 2020-04-16T11:01:53
+[APPLICATION]: /Users/dimaio/Rosetta_master/main/source/bin/rosetta_scripts.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "10.0.0 (clang-1000.11.45.5)"
+[STDLIB]: libc++ version 6000
+[START_OPTIONS]
+ -in:file:fullatom -in:file:fasta=dummy.fasta -out:pdb -parser:protocol=generator.xml
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x000000010b970e41 backtrace_string(int) + 81
+1   libutility.dylib                    0x000000010b993f7e utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 206
+2   libutility.dylib                    0x000000010b975100 utility::UtilityExitException::UtilityExitException(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 112
+3   libutility.dylib                    0x000000010b975027 utility::exit(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) + 55
+4   libcore.3.dylib                     0x0000000109182eb9 core::pose::residue_types_from_sequence(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 2761
+5   libcore.3.dylib                     0x000000010918807b core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 27
+6   libcore.3.dylib                     0x0000000109188517 core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool) + 87
+7   libprotocols.4.dylib                0x0000000105e9d00b protocols::pose_creation::ExtendedPoseMover::apply(core::pose::Pose&) + 75
+8   libprotocols_g.5.dylib              0x0000000104b28c77 protocols::comparative_modeling::GenericJobInputter::pose_from_job(core::pose::Pose&, std::__1::shared_ptr<protocols::jd2::Job>) + 1479
+9   libprotocols.1.dylib                0x00000001076113f1 protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 2929
+10  libprotocols.1.dylib                0x000000010760fae3 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 195
+11  libprotocols.1.dylib                0x000000010760a6c2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+12  rosetta_scripts.default.macosclangrelease 0x000000010190cd75 main + 1813
+13  libdyld.dylib                       0x00007fff7215e015 start + 1
+14  ???                                 0x0000000000000007 0x0 + 7
+
+[END_BACKTRACE]
+
+[FILE]: src/core/pose/annotated_sequence.cc
+[LINE]: 189
+[START_MESSAGE]
+[ ERROR ] UtilityExitException
+ERROR:  can't find residue type for DHP2 at pos 1 in sequence X[DHP2]
+
+
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.15.post.dev+231.master.abcf277dc47
+[COMMIT_DATE]: 2020-04-16T11:01:53
+[APPLICATION]: /Users/dimaio/Rosetta_master/main/source/bin/rosetta_scripts.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "10.0.0 (clang-1000.11.45.5)"
+[STDLIB]: libc++ version 6000
+[START_OPTIONS]
+ -in:file:fullatom -in:file:fasta=dummy.fasta -out:pdb -parser:protocol=generator.xml
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x000000010cfe7e41 backtrace_string(int) + 81
+1   libutility.dylib                    0x000000010d00af7e utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 206
+2   libutility.dylib                    0x000000010cfec100 utility::UtilityExitException::UtilityExitException(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 112
+3   libutility.dylib                    0x000000010cfec027 utility::exit(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) + 55
+4   libcore.3.dylib                     0x000000010abf0eb9 core::pose::residue_types_from_sequence(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 2761
+5   libcore.3.dylib                     0x000000010abf607b core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 27
+6   libcore.3.dylib                     0x000000010abf6517 core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool) + 87
+7   libprotocols.4.dylib                0x000000010792100b protocols::pose_creation::ExtendedPoseMover::apply(core::pose::Pose&) + 75
+8   libprotocols_g.5.dylib              0x0000000104fc1c77 protocols::comparative_modeling::GenericJobInputter::pose_from_job(core::pose::Pose&, std::__1::shared_ptr<protocols::jd2::Job>) + 1479
+9   libprotocols.1.dylib                0x00000001090883f1 protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 2929
+10  libprotocols.1.dylib                0x0000000109086ae3 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 195
+11  libprotocols.1.dylib                0x00000001090816c2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+12  rosetta_scripts.default.macosclangrelease 0x00000001032f2d75 main + 1813
+13  libdyld.dylib                       0x00007fff7215e015 start + 1
+14  ???                                 0x0000000000000007 0x0 + 7
+
+[END_BACKTRACE]
+
+[FILE]: src/core/pose/annotated_sequence.cc
+[LINE]: 189
+[START_MESSAGE]
+[ ERROR ] UtilityExitException
+ERROR:  can't find residue type for DSAL at pos 1 in sequence X[DSAL]
+
+
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.15.post.dev+231.master.abcf277dc47
+[COMMIT_DATE]: 2020-04-16T11:01:53
+[APPLICATION]: /Users/dimaio/Rosetta_master/main/source/bin/rosetta_scripts.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "10.0.0 (clang-1000.11.45.5)"
+[STDLIB]: libc++ version 6000
+[START_OPTIONS]
+ -in:file:fullatom -in:file:fasta=dummy.fasta -out:pdb -parser:protocol=generator.xml
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x000000010b9aee41 backtrace_string(int) + 81
+1   libutility.dylib                    0x000000010b9d1f7e utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 206
+2   libutility.dylib                    0x000000010b9b3100 utility::UtilityExitException::UtilityExitException(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 112
+3   libutility.dylib                    0x000000010b9b3027 utility::exit(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) + 55
+4   libcore.3.dylib                     0x00000001095b7eb9 core::pose::residue_types_from_sequence(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 2761
+5   libcore.3.dylib                     0x00000001095bd07b core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 27
+6   libcore.3.dylib                     0x00000001095bd517 core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool) + 87
+7   libprotocols.4.dylib                0x000000010606400b protocols::pose_creation::ExtendedPoseMover::apply(core::pose::Pose&) + 75
+8   libprotocols_g.5.dylib              0x0000000104cdcc77 protocols::comparative_modeling::GenericJobInputter::pose_from_job(core::pose::Pose&, std::__1::shared_ptr<protocols::jd2::Job>) + 1479
+9   libprotocols.1.dylib                0x00000001077d83f1 protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 2929
+10  libprotocols.1.dylib                0x00000001077d6ae3 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 195
+11  libprotocols.1.dylib                0x00000001077d16c2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+12  rosetta_scripts.default.macosclangrelease 0x0000000101ac9d75 main + 1813
+13  libdyld.dylib                       0x00007fff7215e015 start + 1
+14  ???                                 0x0000000000000007 0x0 + 7
+
+[END_BACKTRACE]
+
+[FILE]: src/core/pose/annotated_sequence.cc
+[LINE]: 189
+[START_MESSAGE]
+[ ERROR ] UtilityExitException
+ERROR:  can't find residue type for DC15 at pos 1 in sequence X[DC15]
+
+
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.15.post.dev+231.master.abcf277dc47
+[COMMIT_DATE]: 2020-04-16T11:01:53
+[APPLICATION]: /Users/dimaio/Rosetta_master/main/source/bin/rosetta_scripts.default.macosclangrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: Apple Mac OS X
+[COMPILER]: Clang version "10.0.0 (clang-1000.11.45.5)"
+[STDLIB]: libc++ version 6000
+[START_OPTIONS]
+ -in:file:fullatom -in:file:fasta=dummy.fasta -out:pdb -parser:protocol=generator.xml
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+0   libutility.dylib                    0x0000000111326e41 backtrace_string(int) + 81
+1   libutility.dylib                    0x0000000111349f7e utility::excn::Exception::Exception(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 206
+2   libutility.dylib                    0x000000011132b100 utility::UtilityExitException::UtilityExitException(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) + 112
+3   libutility.dylib                    0x000000011132b027 utility::exit(char const*, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int) + 55
+4   libcore.3.dylib                     0x000000010ef2feb9 core::pose::residue_types_from_sequence(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 2761
+5   libcore.3.dylib                     0x000000010ef3507b core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, core::chemical::ResidueTypeSet const&, bool, bool) + 27
+6   libcore.3.dylib                     0x000000010ef35517 core::pose::make_pose_from_sequence(core::pose::Pose&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool) + 87
+7   libprotocols.4.dylib                0x000000010bc6000b protocols::pose_creation::ExtendedPoseMover::apply(core::pose::Pose&) + 75
+8   libprotocols_g.5.dylib              0x000000010a8f6c77 protocols::comparative_modeling::GenericJobInputter::pose_from_job(core::pose::Pose&, std::__1::shared_ptr<protocols::jd2::Job>) + 1479
+9   libprotocols.1.dylib                0x000000010d3c73f1 protocols::jd2::JobDistributor::run_one_job(std::__1::shared_ptr<protocols::moves::Mover>&, long, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, unsigned long&, unsigned long&, bool) + 2929
+10  libprotocols.1.dylib                0x000000010d3c5ae3 protocols::jd2::JobDistributor::go_main(std::__1::shared_ptr<protocols::moves::Mover>) + 195
+11  libprotocols.1.dylib                0x000000010d3c06c2 protocols::jd2::FileSystemJobDistributor::go(std::__1::shared_ptr<protocols::moves::Mover>) + 66
+12  rosetta_scripts.default.macosclangrelease 0x000000010763ed75 main + 1813
+13  libdyld.dylib                       0x00007fff7215e015 start + 1
+14  ???                                 0x0000000000000007 0x0 + 7
+
+[END_BACKTRACE]
+
+[FILE]: src/core/pose/annotated_sequence.cc
+[LINE]: 189
+[START_MESSAGE]
+[ ERROR ] UtilityExitException
+ERROR:  can't find residue type for DC16 at pos 1 in sequence X[DC16]
+
+
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+

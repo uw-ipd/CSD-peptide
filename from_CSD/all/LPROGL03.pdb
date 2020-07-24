@@ -1,0 +1,60 @@
+HEADER    CSD ENTRY LPROGL03
+CRYST1   5.8631   9.6723  13.0583  90.00  90.00  90.00   P212121
+SCALE1      0.170558  0.000000  0.000000       0.000000
+SCALE2      0.000000  0.103388  0.000000       0.000000
+SCALE3      0.000000  0.000000  0.076580       0.000000
+HETATM    1  O1  UNK     1       3.858   1.945   8.825  1.00  4.50           O  
+ANISOU    1  O1  UNK     1      620    340    750     20     10    -40       O  
+HETATM    2  N1  UNK     1       4.849   3.746   9.790  1.00  3.90           N  
+ANISOU    2  N1  UNK     1      470    370    640     40   -100     30       N  
+HETATM    3  C1  UNK     1       3.876   3.148   9.078  1.00  3.47           C  
+ANISOU    3  C1  UNK     1      430    340    550     10     60     20       C  
+HETATM    4  O2  UNK     1       4.689   7.139   8.723  1.00  4.16           O  
+ANISOU    4  O2  UNK     1      570    380    630    -80    -80     40       O  
+HETATM    5  N2  UNK     1       3.350   5.380   8.242  1.00  3.26           N  
+ANISOU    5  N2  UNK     1      440    340    460    -20    -70     50       N  
+HETATM    6  C2  UNK     1       4.835   5.166  10.103  1.00  3.71           C  
+ANISOU    6  C2  UNK     1      510    360    540     20   -120      0       C  
+HETATM    7  C3  UNK     1       4.291   5.991   8.961  1.00  3.21           C  
+ANISOU    7  C3  UNK     1      390    360    470    -10    -10    -30       C  
+HETATM    8  C4  UNK     1       2.649   5.983   7.105  1.00  4.29           C  
+ANISOU    8  C4  UNK     1      610    490    530    -20   -160     90       C  
+HETATM    9  C5  UNK     1       1.510   5.011   6.843  1.00  4.53           C  
+ANISOU    9  C5  UNK     1      540    560    620      0   -130     10       C  
+HETATM   10  C6  UNK     1       1.994   3.688   7.404  1.00  4.50           C  
+ANISOU   10  C6  UNK     1      550    480    680    -90   -140    -30       C  
+HETATM   11  C7  UNK     1       2.787   4.092   8.637  1.00  3.32           C  
+ANISOU   11  C7  UNK     1      400    350    510    -20      0     30       C  
+HETATM   12  H1  UNK     1       5.588   3.192  10.172  1.00  5.37           H  
+HETATM   13  H2  UNK     1       4.186   5.358  10.982  1.00  6.32           H  
+HETATM   14  H3  UNK     1       5.810   5.436  10.303  1.00  3.87           H  
+HETATM   15  H4  UNK     1       2.328   6.954   7.378  1.00  6.79           H  
+HETATM   16  H5  UNK     1       3.295   5.958   6.229  1.00  7.82           H  
+HETATM   17  H6  UNK     1       0.721   5.349   7.391  1.00  5.21           H  
+HETATM   18  H7  UNK     1       1.284   4.991   5.798  1.00  6.55           H  
+HETATM   19  H8  UNK     1       2.656   3.327   6.725  1.00  6.55           H  
+HETATM   20  H9  UNK     1       1.307   3.153   7.574  1.00  6.32           H  
+HETATM   21  H10 UNK     1       2.169   4.246   9.441  1.00  4.03           H  
+CONECT    1    3
+CONECT    2    3    6   12
+CONECT    3    1    2   11
+CONECT    4    7
+CONECT    5    7    8   11
+CONECT    6    2    7   13   14
+CONECT    7    4    5    6
+CONECT    8    5    9   15   16
+CONECT    9    8   10   17   18
+CONECT   10    9   11   19   20
+CONECT   11    3    5   10   21
+CONECT   12    2
+CONECT   13    6
+CONECT   14    6
+CONECT   15    8
+CONECT   16    8
+CONECT   17    9
+CONECT   18    9
+CONECT   19   10
+CONECT   20   10
+CONECT   21   11
+MASTER        0    0    0    0    0    0    0    3   21    0   21    0
+END

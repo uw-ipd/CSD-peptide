@@ -1,0 +1,39 @@
+HEADER    CSD ENTRY CYLCYS
+CRYST1   9.3870   6.1490  20.2630  90.00  90.00  90.00   P212121
+SCALE1      0.106530  0.000000  0.000000       0.000000
+SCALE2      0.000000  0.162628  0.000000       0.000000
+SCALE3      0.000000  0.000000  0.049351       0.000000
+HETATM    1  C1  UNK     1      -3.670  -2.388   3.501  1.00  0.00           C  
+HETATM    2  C2  UNK     1      -7.056  -2.949   1.739  1.00  0.00           C  
+HETATM    3  C5  UNK     1      -3.444  -2.401   1.978  1.00  0.00           C  
+HETATM    4  C6  UNK     1      -6.007  -2.784   0.699  1.00  0.00           C  
+HETATM    5  C7  UNK     1      -3.859  -3.763   1.420  1.00  0.00           C  
+HETATM    6  C8  UNK     1      -5.333  -1.357   0.825  1.00  0.00           C  
+HETATM    7  N1  UNK     1      -4.114  -1.313   1.264  1.00  0.00           N  
+HETATM    8  N2  UNK     1      -4.996  -3.823   0.721  1.00  0.00           N  
+HETATM    9  O1  UNK     1      -3.102  -4.750   1.574  1.00  0.00           O  
+HETATM   10  O2  UNK     1      -5.998  -0.384   0.428  1.00  0.00           O  
+HETATM   11  S1  UNK     1      -5.317  -1.939   4.030  1.00  0.00           S  
+HETATM   12  S2  UNK     1      -6.478  -3.447   3.406  1.00  0.00           S  
+HETATM   13  C3  UNK     1      -0.418   0.130   3.161  1.00  0.00           C  
+HETATM   14  C4  UNK     1       0.681  -0.037   4.146  1.00  0.00           C  
+HETATM   15  O3  UNK     1      -0.908  -0.735   2.517  1.00  0.00           O  
+HETATM   16  O4  UNK     1      -0.882   1.393   3.007  1.00  0.00           O  
+CONECT    1    3   11
+CONECT    2    4   12
+CONECT    3    1    5    7
+CONECT    4    2    6    8
+CONECT    5    3    8    9
+CONECT    6    4    7   10
+CONECT    7    3    6
+CONECT    8    4    5
+CONECT    9    5
+CONECT   10    6
+CONECT   11    1   12
+CONECT   12    2   11
+CONECT   13   14   15   16
+CONECT   14   13
+CONECT   15   13
+CONECT   16   13
+MASTER        0    0    0    0    0    0    0    3   16    0   16    0
+END

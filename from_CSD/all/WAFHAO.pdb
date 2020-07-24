@@ -1,0 +1,41 @@
+HEADER    CSD ENTRY WAFHAO
+CRYST1   5.1630   8.6220   5.6540  90.00 105.25  90.00     P21/n
+SCALE1      0.193686  0.000000  0.052805       0.000000
+SCALE2      0.000000  0.115982  0.000000       0.000000
+SCALE3      0.000000  0.000000  0.183321       0.000000
+HETATM    1  O1  UNK     1      -0.304   4.812   4.171  1.00  2.71           O  
+ANISOU    1  O1  UNK     1      300    355    373     20    102    -34       O  
+HETATM    2  O2  UNK     1       3.265   2.164   3.306  1.00  2.70           O  
+ANISOU    2  O2  UNK     1      355    268    402     90    -20     48       O  
+HETATM    3  N1  UNK     1       1.446   3.444   3.740  1.00  2.06           N  
+ANISOU    3  N1  UNK     1      305    229    248    -10     57     53       N  
+HETATM    4  H1  UNK     1       1.190   2.899   4.354  1.00  2.45           H  
+HETATM    5  C1  UNK     1       2.584   3.134   3.062  1.00  1.84           C  
+ANISOU    5  C1  UNK     1      237    205    256    -15    -35    -17       C  
+HETATM    6  C2  UNK     1       0.675   4.553   3.524  1.00  1.84           C  
+ANISOU    6  C2  UNK     1      235    225    239    -18    -22    -38       C  
+HETATM    7  O1B UNK     1       3.980   3.810   1.284  1.00  2.71           O  
+ANISOU    7  O1B UNK     1      300    355    373     20    102    -34       O  
+HETATM    8  O2B UNK     1       0.411   6.458   2.149  1.00  2.70           O  
+ANISOU    8  O2B UNK     1      355    268    402     90    -20     48       O  
+HETATM    9  N1B UNK     1       2.230   5.178   1.715  1.00  2.06           N  
+ANISOU    9  N1B UNK     1      305    229    248    -10     57     53       N  
+HETATM   10  H1B UNK     1       2.486   5.723   1.101  1.00  2.45           H  
+HETATM   11  C1B UNK     1       1.092   5.488   2.393  1.00  1.84           C  
+ANISOU   11  C1B UNK     1      237    205    256    -15    -35    -17       C  
+HETATM   12  C2B UNK     1       3.001   4.069   1.930  1.00  1.84           C  
+ANISOU   12  C2B UNK     1      235    225    239    -18    -22    -38       C  
+CONECT    1    6
+CONECT    2    5
+CONECT    3    4    5    6
+CONECT    4    3
+CONECT    5    2    3   12
+CONECT    6    1    3   11
+CONECT    7   12
+CONECT    8   11
+CONECT    9   10   11   12
+CONECT   10    9
+CONECT   11    6    8    9
+CONECT   12    5    7    9
+MASTER        0    0    0    0    0    0    0    3   12    0   12    0
+END

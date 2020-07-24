@@ -1,0 +1,52 @@
+HEADER    CSD ENTRY VUPRON
+CRYST1  11.4920  11.6180  12.7860  90.00  90.00  90.00   P212121
+SCALE1      0.087017  0.000000  0.000000       0.000000
+SCALE2      0.000000  0.086073  0.000000       0.000000
+SCALE3      0.000000  0.000000  0.078211       0.000000
+HETATM    1 Sn1  UNK     1       3.230   6.585  10.504  1.00  0.00          SN  
+HETATM    2  N1  UNK     1       3.442   7.449  12.611  1.00  0.00           N  
+HETATM    3  N2  UNK     1       1.438   7.596  10.791  1.00  0.00           N  
+HETATM    4  O1  UNK     1       2.065   6.128   8.705  1.00  0.00           O  
+HETATM    5  O2  UNK     1       0.192   6.536   7.609  1.00  0.00           O  
+HETATM    6  O3  UNK     1      -0.018   8.492  12.280  1.00  0.00           O  
+HETATM    7  O4  UNK     1       4.992  11.692   7.550  1.00  0.00           O  
+HETATM    8  C1  UNK     1       0.929   6.700   8.587  1.00  0.00           C  
+HETATM    9  C2  UNK     1       0.471   7.616   9.708  1.00  0.00           C  
+HETATM   10  C3  UNK     1       0.246   9.061   9.173  1.00  0.00           C  
+HETATM   11  C4  UNK     1       1.088   8.056  11.995  1.00  0.00           C  
+HETATM   12  C5  UNK     1       2.198   8.071  13.010  1.00  0.00           C  
+HETATM   13  C6  UNK     1       4.724   7.649   9.476  1.00  0.00           C  
+HETATM   14  C7  UNK     1       5.098   7.056   8.140  1.00  0.00           C  
+HETATM   15  C8  UNK     1       3.175   4.591  11.231  1.00  0.00           C  
+HETATM   16  C9  UNK     1       3.451   3.507  10.226  1.00  0.00           C  
+HETATM   17  C10 UNK     1       1.493   9.765   8.734  1.00  0.00           C  
+HETATM   18  C11 UNK     1       2.013   9.598   7.450  1.00  0.00           C  
+HETATM   19  C12 UNK     1       3.179  10.227   7.039  1.00  0.00           C  
+HETATM   20  C13 UNK     1       3.836  11.064   7.900  1.00  0.00           C  
+HETATM   21  C14 UNK     1       3.322  11.259   9.180  1.00  0.00           C  
+HETATM   22  C15 UNK     1       2.172  10.612   9.575  1.00  0.00           C  
+CONECT    1    2    3    4   13
+CONECT    1   15
+CONECT    2    1   12
+CONECT    3    1    9   11
+CONECT    4    1    8
+CONECT    5    8
+CONECT    6   11
+CONECT    7   20
+CONECT    8    4    5    9
+CONECT    9    3    8   10
+CONECT   10    9   17
+CONECT   11    3    6   12
+CONECT   12    2   11
+CONECT   13    1   14
+CONECT   14   13
+CONECT   15    1   16
+CONECT   16   15
+CONECT   17   10   18   22
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20    7   19   21
+CONECT   21   20   22
+CONECT   22   17   21
+MASTER        0    0    0    0    0    0    0    3   22    0   23    0
+END

@@ -1,0 +1,51 @@
+HEADER    CSD ENTRY REKBUE01
+CRYST1   4.4460   5.0200  10.8530  94.19  91.19 115.72       P-1
+SCALE1      0.224921  0.108344  0.014605       0.000000
+SCALE2      0.000000  0.221109  0.020232       0.000000
+SCALE3      0.000000  0.000000  0.092545       0.000000
+HETATM    1  O1  UNK     1       2.323   3.128   0.955  1.00  0.00           O  
+HETATM    2  O2  UNK     1       2.357   0.779   4.710  1.00  0.00           O  
+HETATM    3  O3  UNK     1       0.729   1.958   3.744  1.00  0.00           O  
+HETATM    4  N1  UNK     1       1.501   1.031   1.231  1.00  0.00           N  
+HETATM    5  C1  UNK     1       1.592   2.203   0.613  1.00  0.00           C  
+HETATM    6  C2  UNK     1       2.289   0.717   2.393  1.00  0.00           C  
+HETATM    7  C3  UNK     1       1.692   1.222   3.683  1.00  0.00           C  
+HETATM    8  H1  UNK     1       0.914   0.474   0.897  1.00  0.00           H  
+HETATM    9  H2  UNK     1       1.857   1.034   5.500  1.00  0.00           H  
+HETATM   10  H3  UNK     1       2.325  -0.294   2.518  1.00  0.00           H  
+HETATM   11  H4  UNK     1       3.144   1.035   2.237  1.00  0.00           H  
+HETATM   12  C1A UNK     1       0.675   2.320  -0.613  1.00  0.00           C  
+HETATM   13  O1A UNK     1      -0.056   1.395  -0.955  1.00  0.00           O  
+HETATM   14  N1A UNK     1       0.766   3.491  -1.231  1.00  0.00           N  
+HETATM   15  C2A UNK     1      -0.021   3.805  -2.393  1.00  0.00           C  
+HETATM   16  C3A UNK     1       0.576   3.301  -3.683  1.00  0.00           C  
+HETATM   17  O2A UNK     1      -0.089   3.743  -4.710  1.00  0.00           O  
+HETATM   18  H2A UNK     1       0.411   3.488  -5.500  1.00  0.00           H  
+HETATM   19  O3A UNK     1       1.539   2.565  -3.744  1.00  0.00           O  
+HETATM   20  H3A UNK     1      -0.058   4.816  -2.518  1.00  0.00           H  
+HETATM   21  H4A UNK     1      -0.877   3.488  -2.237  1.00  0.00           H  
+HETATM   22  H1A UNK     1       1.354   4.048  -0.897  1.00  0.00           H  
+CONECT    1    5
+CONECT    2    7    9
+CONECT    3    7
+CONECT    4    5    6    8
+CONECT    5    1    4   12
+CONECT    6    4    7   10   11
+CONECT    7    2    3    6
+CONECT    8    4
+CONECT    9    2
+CONECT   10    6
+CONECT   11    6
+CONECT   12    5   13   14
+CONECT   13   12
+CONECT   14   12   15   22
+CONECT   15   14   16   20   21
+CONECT   16   15   17   19
+CONECT   17   16   18
+CONECT   18   17
+CONECT   19   16
+CONECT   20   15
+CONECT   21   15
+CONECT   22   14
+MASTER        0    0    0    0    0    0    0    3   22    0   22    0
+END

@@ -1,0 +1,15 @@
+<ROSETTASCRIPTS>
+    <SCOREFXNS>
+        <ScoreFunction name="r15" weights="ref2015.wts"/>
+    </SCOREFXNS>
+    <TASKOPERATIONS>
+          <RestrictToRepacking name="rtr"/>
+    </TASKOPERATIONS>
+    <MOVERS>
+        <PackRotamersMover name="packer" scorefxn="r15" task_operations="rtr" />
+    </MOVERS>
+    <PROTOCOLS>
+        <Add mover="packer"/>
+    </PROTOCOLS>
+    <OUTPUT scorefxn="r15" />
+</ROSETTASCRIPTS>

@@ -1,0 +1,27 @@
+HEADER    CSD ENTRY DAWSUP
+CRYST1   5.2610  13.6170   4.5700  90.00 104.58  90.00       P21
+SCALE1      0.190078  0.000000  0.049441       0.000000
+SCALE2      0.000000  0.073438  0.000000       0.000000
+SCALE3      0.000000  0.000000  0.226099       0.000000
+HETATM    1  O1  UNK     1       2.610   1.294  -0.062  1.00  0.00           O  
+HETATM    2  O2  UNK     1       4.106  -1.266   4.361  1.00  0.00           O  
+HETATM    3  N1  UNK     1       4.414   0.368   2.972  1.00  0.00           N  
+HETATM    4  N2  UNK     1       2.263  -0.381   1.513  1.00  0.00           N  
+HETATM    5  C1  UNK     1       4.137   1.130   1.813  1.00  0.00           C  
+HETATM    6  C2  UNK     1       3.751  -0.681   3.419  1.00  0.00           C  
+HETATM    7  C3  UNK     1       2.636  -1.130   2.627  1.00  0.00           C  
+HETATM    8  C4  UNK     1       2.884   0.708   1.048  1.00  0.00           C  
+HETATM    9  C5  UNK     1       4.916   2.138   1.327  1.00  0.00           C  
+HETATM   10  C6  UNK     1       1.987  -2.206   2.879  1.00  0.00           C  
+CONECT    1    8
+CONECT    2    6
+CONECT    3    5    6
+CONECT    4    7    8
+CONECT    5    3    8    9
+CONECT    6    2    3    7
+CONECT    7    4    6   10
+CONECT    8    1    4    5
+CONECT    9    5
+CONECT   10    7
+MASTER        0    0    0    0    0    0    0    3   10    0   10    0
+END

@@ -1,0 +1,29 @@
+HEADER    CSD ENTRY LPROGL02
+CRYST1   5.8690   9.6740  13.0760  90.00  90.00  90.00   P212121
+SCALE1      0.170387  0.000000  0.000000       0.000000
+SCALE2      0.000000  0.103370  0.000000       0.000000
+SCALE3      0.000000  0.000000  0.076476       0.000000
+HETATM    1  O1  UNK     1       4.021   7.730   4.239  1.00  0.00           O  
+HETATM    2  O2  UNK     1       4.695   2.535   4.341  1.00  0.00           O  
+HETATM    3  N1  UNK     1       4.855   5.933   3.273  1.00  0.00           N  
+HETATM    4  N2  UNK     1       3.354   4.289   4.821  1.00  0.00           N  
+HETATM    5  C1  UNK     1       4.835   4.510   2.956  1.00  0.00           C  
+HETATM    6  C2  UNK     1       3.880   6.527   3.979  1.00  0.00           C  
+HETATM    7  C3  UNK     1       2.787   5.580   4.426  1.00  0.00           C  
+HETATM    8  C4  UNK     1       1.997   5.988   5.663  1.00  0.00           C  
+HETATM    9  C5  UNK     1       1.508   4.649   6.220  1.00  0.00           C  
+HETATM   10  C6  UNK     1       2.652   3.681   5.956  1.00  0.00           C  
+HETATM   11  C7  UNK     1       4.296   3.678   4.106  1.00  0.00           C  
+CONECT    1    6
+CONECT    2   11
+CONECT    3    5    6
+CONECT    4    7   10   11
+CONECT    5    3   11
+CONECT    6    1    3    7
+CONECT    7    4    6    8
+CONECT    8    7    9
+CONECT    9    8   10
+CONECT   10    4    9
+CONECT   11    2    4    5
+MASTER        0    0    0    0    0    0    0    3   11    0   11    0
+END

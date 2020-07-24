@@ -1,0 +1,53 @@
+HEADER    CSD ENTRY YOVSIL
+CRYST1  18.0390   9.7740  18.4740  90.00  90.00  90.00      Pbca
+SCALE1      0.055435  0.000000  0.000000       0.000000
+SCALE2      0.000000  0.102312  0.000000       0.000000
+SCALE3      0.000000  0.000000  0.054130       0.000000
+HETATM    1 Re1  UNK     1      15.418   1.891   7.863  1.00  0.00          RE  
+HETATM    2  S1  UNK     1      13.601   0.694   8.552  1.00  0.00           S  
+HETATM    3  S2  UNK     1      15.331  -1.065   5.134  1.00  0.00           S  
+HETATM    4  N1  UNK     1      15.153   2.811   9.629  1.00  0.00           N  
+HETATM    5  N2  UNK     1      17.308   2.270   8.437  1.00  0.00           N  
+HETATM    6  N3  UNK     1      16.392   0.191   7.275  1.00  0.00           N  
+HETATM    7  O1  UNK     1      14.940   2.875   6.588  1.00  0.00           O  
+HETATM    8  O2  UNK     1      13.859   3.463  11.347  1.00  0.00           O  
+HETATM    9  O3  UNK     1      18.663   3.449   9.797  1.00  0.00           O  
+HETATM   10  O4  UNK     1      18.476  -0.701   6.870  1.00  0.00           O  
+HETATM   11  O5  UNK     1      14.709  -2.364   4.940  1.00  0.00           O  
+HETATM   12  O6  UNK     1      16.524  -0.868   4.343  1.00  0.00           O  
+HETATM   13  O7  UNK     1      14.381   0.018   4.988  1.00  0.00           O  
+HETATM   14  C1  UNK     1      12.977   1.794   9.845  1.00  0.00           C  
+HETATM   15  C2  UNK     1      14.020   2.781  10.323  1.00  0.00           C  
+HETATM   16  C3  UNK     1      16.282   3.606  10.083  1.00  0.00           C  
+HETATM   17  C4  UNK     1      17.557   3.113   9.433  1.00  0.00           C  
+HETATM   18  C5  UNK     1      18.356   1.472   7.811  1.00  0.00           C  
+HETATM   19  C6  UNK     1      17.770   0.257   7.258  1.00  0.00           C  
+HETATM   20  C7  UNK     1      15.795  -1.060   6.865  1.00  0.00           C  
+HETATM   21 Na1  UNK     1      12.111   0.300   5.587  1.00  0.00          NA  
+HETATM   22 Na2  UNK     1      14.617   2.199   4.197  1.00  0.00          NA  
+HETATM   23  O8  UNK     1      12.001  -0.500   3.333  1.00  0.00           O  
+HETATM   24  O9  UNK     1       9.902   0.267   6.200  1.00  0.00           O  
+HETATM   25  O10 UNK     1      16.973   2.188   4.404  1.00  0.00           O  
+CONECT    1    2    4    5    6
+CONECT    1    7
+CONECT    2    1   14
+CONECT    3   11   12   13   20
+CONECT    4    1   15   16
+CONECT    5    1   17   18
+CONECT    6    1   19   20
+CONECT    7    1
+CONECT    8   15
+CONECT    9   17
+CONECT   10   19
+CONECT   11    3
+CONECT   12    3
+CONECT   13    3
+CONECT   14    2   15
+CONECT   15    4    8   14
+CONECT   16    4   17
+CONECT   17    5    9   16
+CONECT   18    5   19
+CONECT   19    6   10   18
+CONECT   20    3    6
+MASTER        0    0    0    0    0    0    0    3   25    0   21    0
+END

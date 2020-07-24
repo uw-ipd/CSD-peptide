@@ -1,0 +1,50 @@
+HEADER    CSD ENTRY GLYGLY20
+CRYST1   8.0240   9.5430   7.7850  90.00 106.49  90.00     P21/c
+SCALE1      0.124626  0.000000  0.036892       0.000000
+SCALE2      0.000000  0.104789  0.000000       0.000000
+SCALE3      0.000000  0.000000  0.133962       0.000000
+HETATM    1  O1  UNK     1       3.264   1.918   1.923  1.00  1.47           O  
+ANISOU    1  O1  UNK     1      240     93    224    -11    -96     -2       O  
+HETATM    2  O2  UNK     1       5.312   5.473   4.403  1.00  1.28           O  
+ANISOU    2  O2  UNK     1      243    103    141    -13    -23     -3       O  
+HETATM    3  O3  UNK     1       6.168   3.739   5.526  1.00  1.76           O  
+ANISOU    3  O3  UNK     1      289    224    157     30    -95     23       O  
+HETATM    4  N1  UNK     1       1.240   3.166   0.578  1.00  1.00           N  
+ANISOU    4  N1  UNK     1      141    107    131     -1    -45     -5       N  
+HETATM    5  H1  UNK     1       0.726   3.311   1.344  1.00  2.68           H  
+HETATM    6  H2  UNK     1       1.366   2.252   0.455  1.00  2.45           H  
+HETATM    7  H3  UNK     1       0.834   3.474  -0.187  1.00  1.82           H  
+HETATM    8  N2  UNK     1       4.204   3.888   2.515  1.00  1.08           N  
+ANISOU    8  N2  UNK     1      170     85    157      9    -74      5       N  
+HETATM    9  H4  UNK     1       4.153   4.705   2.478  1.00  2.37           H  
+HETATM   10  C1  UNK     1       5.567   4.250   4.553  1.00  0.98           C  
+ANISOU   10  C1  UNK     1      126    133    115    -15     -6     12       C  
+HETATM   11  C2  UNK     1       2.528   3.876   0.767  1.00  1.00           C  
+ANISOU   11  C2  UNK     1      144    111    125    -19    -38      5       C  
+HETATM   12  H5  UNK     1       3.051   3.865  -0.060  1.00  1.58           H  
+HETATM   13  H6  UNK     1       2.371   4.792   1.015  1.00  1.26           H  
+HETATM   14  C3  UNK     1       5.107   3.272   3.479  1.00  1.28           C  
+ANISOU   14  C3  UNK     1      196    112    178     29   -100    -17       C  
+HETATM   15  H7  UNK     1       5.907   2.911   3.031  1.00  1.89           H  
+HETATM   16  H8  UNK     1       4.691   2.538   3.941  1.00  2.13           H  
+HETATM   17  C4  UNK     1       3.356   3.146   1.809  1.00  0.96           C  
+ANISOU   17  C4  UNK     1      127    125    114     11    -16     -9       C  
+CONECT    1   17
+CONECT    2   10
+CONECT    3   10
+CONECT    4    5    6    7   11
+CONECT    5    4
+CONECT    6    4
+CONECT    7    4
+CONECT    8    9   14   17
+CONECT    9    8
+CONECT   10    2    3   14
+CONECT   11    4   12   13   17
+CONECT   12   11
+CONECT   13   11
+CONECT   14    8   10   15   16
+CONECT   15   14
+CONECT   16   14
+CONECT   17    1    8   11
+MASTER        0    0    0    0    0    0    0    3   17    0   17    0
+END

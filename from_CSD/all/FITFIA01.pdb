@@ -1,0 +1,135 @@
+HEADER    CSD ENTRY FITFIA01
+CRYST1   9.5615   9.0515  10.4586  90.00 105.32  90.00       P21
+SCALE1      0.104586  0.000000  0.028647       0.000000
+SCALE2      0.000000  0.110479  0.000000       0.000000
+SCALE3      0.000000  0.000000  0.099137       0.000000
+HETATM    1 Zn1  UNK     1       1.723   4.785  -0.879  1.00  2.00          ZN  
+ANISOU    1 Zn1  UNK     1       92    199    469      4    -27     -7      ZN  
+HETATM    2  O1  UNK     1       3.515   5.206  -0.211  1.00  2.56           O  
+ANISOU    2  O1  UNK     1       91    260    620    -19    -35     30       O  
+HETATM    3  O2  UNK     1       3.168   7.341   0.319  1.00  2.56           O  
+ANISOU    3  O2  UNK     1       91    260    620    -19    -35     30       O  
+HETATM    4  O3  UNK     1       9.285   4.903   4.497  1.00  4.69           O  
+ANISOU    4  O3  UNK     1      372    840    570    -87    -32     90       O  
+HETATM    5  N1  UNK     1       5.940   5.316   1.069  1.00  2.64           N  
+ANISOU    5  N1  UNK     1      223    350    430     20    -35     40       N  
+HETATM    6  H1  UNK     1       5.867   4.542   0.657  1.00  3.16           H  
+HETATM    7  N2  UNK     1       8.338   7.601  -0.020  1.00  2.00           N  
+ANISOU    7  N2  UNK     1       70    210    480     -2    -17    -30       N  
+HETATM    8  O4  UNK     1       6.508   6.315   3.025  1.00  3.09           O  
+ANISOU    8  O4  UNK     1      395    380    400     59    -89     10       O  
+HETATM    9  N3  UNK     1       9.720   5.995  -0.786  1.00  1.89           N  
+ANISOU    9  N3  UNK     1      117    140    460     36    -22     20       N  
+HETATM   10  C1  UNK     1       6.084   6.752  -0.927  1.00  2.24           C  
+ANISOU   10  C1  UNK     1      113    360    380    -75    -42     10       C  
+HETATM   11  H2  UNK     1       5.782   6.068  -1.577  1.00  2.68           H  
+HETATM   12  H3  UNK     1       5.827   7.641  -1.276  1.00  2.68           H  
+HETATM   13  C2  UNK     1       3.888   6.366   0.169  1.00  2.56           C  
+ANISOU   13  C2  UNK     1       91    260    620    -19    -35     30       C  
+HETATM   14  C3  UNK     1       9.577   7.114  -0.080  1.00  1.98           C  
+ANISOU   14  C3  UNK     1       94    240    420     -5    -32     20       C  
+HETATM   15  H4  UNK     1      10.309   7.533   0.354  1.00  2.37           H  
+HETATM   16  N4  UNK     1       8.951   4.499   7.218  1.00  3.14           N  
+ANISOU   16  N4  UNK     1      325    470    400     38    -78     50       N  
+HETATM   17  H5  UNK     1       9.384   5.240   6.916  1.00  3.79           H  
+HETATM   18  H6  UNK     1       9.533   3.802   7.154  1.00  3.79           H  
+HETATM   19  N5  UNK     1       7.329   3.864   4.004  1.00  3.64           N  
+ANISOU   19  N5  UNK     1      403    500    480      5   -173    -20       N  
+HETATM   20  H7  UNK     1       6.679   3.364   4.324  1.00  4.34           H  
+HETATM   21  C4  UNK     1       7.377   4.116   2.625  1.00  3.45           C  
+ANISOU   21  C4  UNK     1      359    400    550     77   -182     60       C  
+HETATM   22  H8  UNK     1       7.026   3.331   2.133  1.00  4.11           H  
+HETATM   23  H9  UNK     1       8.316   4.256   2.347  1.00  4.11           H  
+HETATM   24  C5  UNK     1       7.870   4.243   6.352  1.00  3.77           C  
+ANISOU   24  C5  UNK     1      272    660    500     16    -75    -20       C  
+HETATM   25  H10 UNK     1       7.140   4.881   6.553  1.00  4.58           H  
+HETATM   26  H11 UNK     1       7.528   3.331   6.526  1.00  4.58           H  
+HETATM   27  C6  UNK     1       8.441   5.723  -1.221  1.00  2.22           C  
+ANISOU   27  C6  UNK     1      155    250    440    -73    -69      0       C  
+HETATM   28  H12 UNK     1       8.189   4.977  -1.750  1.00  2.68           H  
+HETATM   29  C7  UNK     1       7.606   6.680  -0.780  1.00  2.04           C  
+ANISOU   29  C7  UNK     1      176    240    360      2    -36     30       C  
+HETATM   30  C8  UNK     1       8.238   4.360   4.846  1.00  3.43           C  
+ANISOU   30  C8  UNK     1      303    360    640     61    -72     80       C  
+HETATM   31  C9  UNK     1       6.548   5.354   2.270  1.00  2.51           C  
+ANISOU   31  C9  UNK     1      275    340    340      5      0    -20       C  
+HETATM   32  C10 UNK     1       5.395   6.513   0.423  1.00  2.12           C  
+ANISOU   32  C10 UNK     1      104    300    400    -76    -68     50       C  
+HETATM   33  H13 UNK     1       5.553   7.305   1.014  1.00  2.53           H  
+HETATM   34 Zn1  UNK     1      11.284   4.785  -0.879  1.00  2.00          ZN  
+ANISOU   34 Zn1  UNK     1       92    199    469      4    -27     -7      ZN  
+HETATM   35 Zn1  UNK     1       8.521   4.785   9.208  1.00  2.00          ZN  
+ANISOU   35 Zn1  UNK     1       92    199    469      4    -27     -7      ZN  
+HETATM   36 Zn1A UNK     1       7.839   9.310   0.879  1.00  2.00          ZN  
+ANISOU   36 Zn1A UNK     1       92    199    469     -4    -27      7      ZN  
+HETATM   37  N2A UNK     1       1.223   3.075   0.020  1.00  2.00           N  
+ANISOU   37  N2A UNK     1       70    210    480      2    -17     30       N  
+HETATM   38  N3  UNK     1       0.159   5.995  -0.786  1.00  1.89           N  
+ANISOU   38  N3  UNK     1      117    140    460     36    -22     20       N  
+HETATM   39  N4  UNK     1       2.152   4.499  -2.869  1.00  3.14           N  
+ANISOU   39  N4  UNK     1      325    470    400     38    -78     50       N  
+HETATM   40  S1  UNK     1       4.021   1.850   4.800  1.00  5.86           S  
+ANISOU   40  S1  UNK     1      507   1010    710   -165     96    -80       S  
+HETATM   41  O5  UNK     1       4.726   3.213   4.698  1.00  8.56           O  
+ANISOU   41  O5  UNK     1      333   1270   1650   -154    -68    450       O  
+HETATM   42  C11 UNK     1       4.010   1.466   6.515  1.00  5.41           C  
+ANISOU   42  C11 UNK     1      594    890    570      3    113    -10       C  
+HETATM   43  H14 UNK     1       4.928   1.361   6.833  1.00  8.05           H  
+HETATM   44  H15 UNK     1       3.511   0.636   6.660  1.00  8.05           H  
+HETATM   45  H16 UNK     1       3.575   2.197   7.007  1.00  8.05           H  
+HETATM   46  C12 UNK     1       2.289   2.281   4.630  1.00  5.85           C  
+ANISOU   46  C12 UNK     1      521   1030    670   -241   -121    -30       C  
+HETATM   47  H17 UNK     1       1.978   2.706   5.450  1.00  8.76           H  
+HETATM   48  H18 UNK     1       1.770   1.470   4.455  1.00  8.76           H  
+HETATM   49  H19 UNK     1       2.187   2.903   3.875  1.00  8.76           H  
+CONECT    1    2   37   38   39
+CONECT    2    1   13
+CONECT    3   13
+CONECT    4   30
+CONECT    5    6   31   32
+CONECT    6    5
+CONECT    7   14   29   36
+CONECT    8   31
+CONECT    9   14   27   34
+CONECT   10   11   12   29   32
+CONECT   11   10
+CONECT   12   10
+CONECT   13    2    3   32
+CONECT   14    7    9   15
+CONECT   15   14
+CONECT   16   17   18   24   35
+CONECT   17   16
+CONECT   18   16
+CONECT   19   20   21   30
+CONECT   20   19
+CONECT   21   19   22   23   31
+CONECT   22   21
+CONECT   23   21
+CONECT   24   16   25   26   30
+CONECT   25   24
+CONECT   26   24
+CONECT   27    9   28   29
+CONECT   28   27
+CONECT   29    7   10   27
+CONECT   30    4   19   24
+CONECT   31    5    8   21
+CONECT   32    5   10   13   33
+CONECT   33   32
+CONECT   34    9
+CONECT   35   16
+CONECT   36    7
+CONECT   37    1
+CONECT   38    1
+CONECT   39    1
+CONECT   40   41   42   46
+CONECT   41   40
+CONECT   42   40   43   44   45
+CONECT   43   42
+CONECT   44   42
+CONECT   45   42
+CONECT   46   40   47   48   49
+CONECT   47   46
+CONECT   48   46
+CONECT   49   46
+MASTER        0    0    0    0    0    0    0    3   49    0   49    0
+END

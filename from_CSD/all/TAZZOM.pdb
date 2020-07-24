@@ -1,0 +1,70 @@
+HEADER    CSD ENTRY TAZZOM
+CRYST1   5.1525  14.6680   9.8555  90.00 104.62  90.00     P21/c
+SCALE1      0.194081  0.000000  0.050608       0.000000
+SCALE2      0.000000  0.068176  0.000000       0.000000
+SCALE3      0.000000  0.000000  0.104859       0.000000
+HETATM    1  O1  UNK     1       3.130   7.910   7.224  1.00  6.06           O  
+ANISOU    1  O1  UNK     1      662    993    647   -100    194    -88       O  
+HETATM    2  O2  UNK     1       2.554   5.484   3.468  1.00  6.39           O  
+ANISOU    2  O2  UNK     1      739    889    801   -260     82   -130       O  
+HETATM    3  N1  UNK     1       2.785   6.741   5.325  1.00  4.22           N  
+ANISOU    3  N1  UNK     1      405    637    563    -28     72    106       N  
+HETATM    4  H1  UNK     1       2.072   6.395   5.658  1.00  5.05           H  
+HETATM    5  C1  UNK     1       3.146   6.336   4.077  1.00  4.50           C  
+ANISOU    5  C1  UNK     1      465    625    619     -5     35     61       C  
+HETATM    6  C2  UNK     1       3.450   7.644   6.093  1.00  4.36           C  
+ANISOU    6  C2  UNK     1      464    646    547     41     66     58       C  
+HETATM    7  O1B UNK     1       4.688   6.758   2.313  1.00  6.06           O  
+ANISOU    7  O1B UNK     1      662    993    647   -100    194    -88       O  
+HETATM    8  O2B UNK     1       5.264   9.184   6.068  1.00  6.39           O  
+ANISOU    8  O2B UNK     1      739    889    801   -260     82   -130       O  
+HETATM    9  N1B UNK     1       5.033   7.927   4.211  1.00  4.22           N  
+ANISOU    9  N1B UNK     1      405    637    563    -28     72    106       N  
+HETATM   10  H1B UNK     1       5.747   8.273   3.879  1.00  5.05           H  
+HETATM   11  C1B UNK     1       4.672   8.332   5.460  1.00  4.50           C  
+ANISOU   11  C1B UNK     1      465    625    619     -5     35     61       C  
+HETATM   12  C2B UNK     1       4.368   7.024   3.444  1.00  4.36           C  
+ANISOU   12  C2B UNK     1      464    646    547     41     66     58       C  
+HETATM   13  C3  UNK     1       0.517   5.690   7.693  1.00  5.01           C  
+ANISOU   13  C3  UNK     1      604    614    684    -23     69     61       C  
+HETATM   14  H2  UNK     1       1.143   6.238   8.107  1.00  6.00           H  
+HETATM   15  N2  UNK     1      -0.292   5.012   8.460  1.00  5.04           N  
+ANISOU   15  N2  UNK     1      682    623    611     -9    160     81       N  
+HETATM   16  O3  UNK     1       0.514   5.657   6.455  1.00  5.33           O  
+ANISOU   16  O3  UNK     1      597    805    624    -68    102    139       O  
+HETATM   17  C4  UNK     1      -1.246   4.091   7.908  1.00  6.84           C  
+ANISOU   17  C4  UNK     1      679    790   1130   -119    168    125       C  
+HETATM   18  H3  UNK     1      -1.298   4.216   6.957  1.00 10.26           H  
+HETATM   19  H4  UNK     1      -2.108   4.249   8.299  1.00 10.26           H  
+HETATM   20  H5  UNK     1      -0.969   3.192   8.098  1.00 10.26           H  
+HETATM   21  C5  UNK     1      -0.200   5.075   9.916  1.00  9.09           C  
+ANISOU   21  C5  UNK     1     1523   1260    670   -111    208    110       C  
+HETATM   22  H6  UNK     1       0.555   5.613  10.166  1.00 13.66           H  
+HETATM   23  H7  UNK     1      -0.092   4.189  10.269  1.00 13.66           H  
+HETATM   24  H8  UNK     1      -1.002   5.465  10.271  1.00 13.66           H  
+CONECT    1    6
+CONECT    2    5
+CONECT    3    4    5    6
+CONECT    4    3
+CONECT    5    2    3   12
+CONECT    6    1    3   11
+CONECT    7   12
+CONECT    8   11
+CONECT    9   10   11   12
+CONECT   10    9
+CONECT   11    6    8    9
+CONECT   12    5    7    9
+CONECT   13   14   15   16
+CONECT   14   13
+CONECT   15   13   17   21
+CONECT   16   13
+CONECT   17   15   18   19   20
+CONECT   18   17
+CONECT   19   17
+CONECT   20   17
+CONECT   21   15   22   23   24
+CONECT   22   21
+CONECT   23   21
+CONECT   24   21
+MASTER        0    0    0    0    0    0    0    3   24    0   24    0
+END
