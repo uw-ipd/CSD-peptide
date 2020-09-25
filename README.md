@@ -7,6 +7,7 @@ This repository contains several utilities for finding and processing peptide st
 ### Notes on _convert.py_
  * Usage: _convert.py_ [--minlen MINLEN] pdbs
  * the "MINLEN" argument only generates peptides of at least the given length
- * the folder _refpep/canonic_ contains all the PDBs of which the script is aware.  Changing this to _refpep/all_ (or adding PDBs to this folder) allow understanding of additional PDBs.
+ * the folder _refpep/canonic_ contains all the AAs of which the script is aware.  The folder _refpep/peptoid_ contains all the peptoids of which the script is aware.
+ * "automatic" assignment of other AAs/peptoids will be made with peptoids assigned the tag N## and AAs the tag A##
  * outputs are found in _converted_
- * currently only alpha AAs and N-methylated AAs are understood.  Additional variants (peptoids) will be added in the future.
+ * currently only alpha AAs, N-methylated alpha AAs, and peptoids are understood.  Additional variants may be added in the future.
